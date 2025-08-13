@@ -9,8 +9,10 @@ export default {
     screens: {
       xs: "400px",   // extra small devices
       sm: "480px",   // small devices
+      sd: "650px",
       md: "800px",   // medium devices
       lg: "1024px",  // laptop
+      xl: "1200px",
     },
     extend: {
       fontFamily: {

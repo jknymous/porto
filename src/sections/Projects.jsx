@@ -130,15 +130,15 @@ export default function Projects({ lang }) {
     };
 
     return (
-        <section className="flex flex-col justify-center px-8 md:px-48 py-10 text-gray-300 font-mono">
+        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-5 md:py-10 text-gray-300 font-mono">
             {/* TITLE */}
-            <h2 className="text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-bright-blue mb-2">
                 {lang === "ID" ? "Proyek" : "Projects"}
             </h2>
-            <div className="w-20 h-1 bg-bright-blue mb-6"></div>
+            <div className="w-20 lg:w-32 h-1 bg-bright-blue mb-6"></div>
 
             {/* GRID */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sd:grid-cols-2 xl:grid-cols-3 gap-6">
                 {projects.map((project, index) => (
                     <div
                         key={index}
@@ -186,8 +186,8 @@ export default function Projects({ lang }) {
 
             {/* MODAL */}
             {selectedProject && (
-                <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
-                    <div className="bg-gray-900 rounded-lg max-w-3xl w-full relative p-6">
+                <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 px-6 sm:px-8">
+                    <div className="bg-gray-900 rounded-lg max-w-3xl w-full relative p-4">
                         {/* CLOSE */}
                         <button
                             onClick={closeModal}
@@ -201,7 +201,7 @@ export default function Projects({ lang }) {
                             <img
                                 src={selectedProject.images[currentImage]}
                                 alt="project"
-                                className="w-full h-64 object-cover rounded"
+                                className="object-cover rounded"
                             />
                             <button
                                 onClick={prevImage}
@@ -219,8 +219,8 @@ export default function Projects({ lang }) {
 
                         {/* DESC */}
                         <div className="mt-4">
-                            <h3 className="text-2xl font-semibold mb-2">{selectedProject.title}</h3>
-                            <p className="mb-4">{selectedProject.description}</p>
+                            <h3 className="text-lg sd:text-xl font-semibold mb-2">{selectedProject.title}</h3>
+                            <p className="text-sm sd:text-base mb-4">{selectedProject.description}</p>
                             <div className="flex flex-wrap gap-2 mb-4">
                                 {selectedProject.skills.map((skill, i) => (
                                     <span
@@ -238,7 +238,7 @@ export default function Projects({ lang }) {
                                     href={selectedProject.github}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex items-center gap-2 px-4 py-2 bg-gray-700 rounded hover:bg-gray-600"
+                                    className="flex items-center gap-2 px-4 py-2 bg-gray-700 rounded hover:bg-gray-600 text-sm sd:text-base"
                                 >
                                     <Github size={18} /> Github
                                 </a>
@@ -246,7 +246,7 @@ export default function Projects({ lang }) {
                                     href={selectedProject.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="flex items-center gap-2 px-4 py-2 bg-bright-blue rounded hover:bg-blue-500"
+                                    className="flex items-center gap-2 px-4 py-2 bg-bright-blue rounded hover:bg-blue-500 text-sm sd:text-base"
                                 >
                                     <Link size={18} /> {lang === "ID" ? "Lihat" : "View"}
                                 </a>

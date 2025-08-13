@@ -32,14 +32,14 @@ export default function Skills({ lang }) {
     ];
 
     return (
-        <section className="flex flex-col justify-center px-8 md:px-48 py-10 text-gray-300 font-mono">
+        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-5 md:py-10 text-gray-300 font-mono">
             {/* JUDUL */}
-            <h2 className="text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-bright-blue mb-2">
                 {lang === "ID" ? "Keahlian Pemrograman" : "Programming Skills"}
             </h2>
 
             {/* GARIS */}
-            <div className="w-20 h-1 bg-bright-blue mb-6"></div>
+            <div className="w-20 lg:w-32 h-1 bg-bright-blue mb-6"></div>
 
             {/* FLEX LIST */}
             <div className="flex flex-wrap gap-4">
@@ -51,7 +51,7 @@ export default function Skills({ lang }) {
                             className="flex items-center gap-2 px-4 py-2 border border-gray-700 rounded-lg hover:border-bright-blue transition-colors duration-300"
                         >
                             <Icon className="w-5 h-5 text-bright-blue" />
-                            <span>{skill.name}</span>
+                            <span className="text-sm lg:text-base">{skill.name}</span>
                         </div>
                     );
                 })}

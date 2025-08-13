@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function About({ lang }) {
     return (
-        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-10 text-gray-300 font-mono">
+        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-5 md:py-10 text-gray-300 font-mono">
             {/* JUDUL */}
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-bright-blue mb-2">
                 {lang === 'ID' ? 'Tentang Saya' : 'About Me'}
             </h2>
 

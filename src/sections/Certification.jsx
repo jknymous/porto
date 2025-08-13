@@ -31,14 +31,14 @@ export default function Certification({ lang }) {
     ];
 
     return (
-        <section className="flex flex-col justify-center px-8 md:px-48 py-10 text-gray-300 font-mono">
+        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-5 md:py-10 text-gray-300 font-mono">
             {/* JUDUL */}
-            <h2 className="text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-bright-blue mb-2">
                 {lang === "ID" ? "Sertifikasi" : "Certifications"}
             </h2>
 
             {/* GARIS */}
-            <div className="w-20 h-1 bg-bright-blue mb-10"></div>
+            <div className="w-20 lg:w-32 h-1 bg-bright-blue mb-6"></div>
 
             {/* LIST */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -50,10 +50,10 @@ export default function Certification({ lang }) {
                         {/* JUDUL */}
                         <div className="flex items-center gap-3 mb-2">
                             <Award className="text-bright-blue w-6 h-6" />
-                            <h3 className="text-lg font-semibold text-white">{cert.title}</h3>
+                            <h3 className="text-base lg:text-lg font-semibold text-white">{cert.title}</h3>
                         </div>
                         {/* DESKRIPSI */}
-                        <p className="text-sm text-gray-400">{cert.desc}</p>
+                        <p className="text-xs lg:text-sm text-gray-400">{cert.desc}</p>
                     </div>
                 ))}
             </div>
