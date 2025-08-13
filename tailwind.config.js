@@ -6,6 +6,12 @@ export default {
   ],
   darkMode: 'class',
   theme: {
+    screens: {
+      xs: "400px",   // extra small devices
+      sm: "480px",   // small devices
+      md: "800px",   // medium devices
+      lg: "1024px",  // laptop
+    },
     extend: {
       fontFamily: {
         mono: ['"Fira Code"', 'monospace'],

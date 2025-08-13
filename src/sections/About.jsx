@@ -2,17 +2,17 @@ import React from 'react';
 
 export default function About({ lang }) {
     return (
-        <section className="flex flex-col justify-center px-8 md:px-48 py-10 text-gray-300 font-mono">
+        <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-10 text-gray-300 font-mono">
             {/* JUDUL */}
-            <h2 className="text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-bright-blue mb-2">
                 {lang === 'ID' ? 'Tentang Saya' : 'About Me'}
             </h2>
 
             {/* GARIS */}
-            <div className="w-20 h-1 bg-bright-blue mb-6"></div>
+            <div className="w-20 lg:w-32 h-1 bg-bright-blue mb-6"></div>
 
             {/* ISI */}
-            <div className="w-full space-y-4">
+            <div className="text-xs sm:text-sm lg:text-base w-full space-y-4">
                 <p>
                     {lang === 'ID'
                         ? 'Saya adalah seorang pengembang web yang bersemangat membangun aplikasi interaktif dan ramah pengguna. Dengan latar belakang yang kuat di teknologi front-end dan back-end, saya berusaha menciptakan solusi yang efisien, dapat diskalakan, dan menarik secara visual.'
