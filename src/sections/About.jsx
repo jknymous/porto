@@ -27,4 +27,4 @@ export default function About({ lang }) {
         </section>
     );
 }
-test
+//test
