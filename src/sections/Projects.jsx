@@ -19,51 +19,53 @@ export default function Projects({ lang }) {
 
     const projects = [
         {
-            title: "GUdang - Simple",
+            title: "The Ledger of Group",
+            status: "Completed",
+            sale: "Sale",
+            image: "/Hutang/loginn.png",
+            images: [
+                "/Hutang/loginn.png",
+                "/Hutang/db.png",
+                "/Hutang/dbdk.png",
+                "/Hutang/index.png",
+                "/Hutang/indexd.png",
+            ],
+            skills: ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+            description:
+                "This application was created to solve financial tracking issues commonly found in WhatsApp groups. Often, when hanging out or dining with friends, one person pays for everyone, and the rest owe their share. Traditionally, these debts are recorded manually, but since most guys and Gen Z rarely carry physical notebooks anymore, this system was built as a web-based solution for easier and more modern access. The app features two main tabs: Debt and Payment, both seamlessly integrated with a two- way netting system.This means that if the same person appears in both records, the system will automatically offset the debt in real - time. The platform includes separate interfaces for admin and public users, and supports both dark mode and light mode for a more comfortable user experience.",
+            github: "https://github.com/jknymous",
+            link: "https://lynk.id/jknymous/yx9d5vyo0y0w",
+        },
+        {
+            title: "Prakerin System",
             status: "Completed",
             sale: "Not Sale",
-            image: "/Gudang/login-page.png",
+            image: "/Prakerin/login.png",
             images: [
-                "/Gudang/login-page.png",
-                "/Gudang/db-admin.png",
-                "/Gudang/toko.png",
-                "/Gudang/user.png",
-                "/Gudang/barang.png",
-                "/Gudang/purchase.png",
-                "/Gudang/stok-keluar.png",
-                "/Gudang/profile.png",
-                "/Gudang/db-user.png",
+                "/Prakerin/login.png",
+                "/Prakerin/db_admin.png",
+                "/Prakerin/abs_admin.png",
+                "/Prakerin/lpr_admin.png",
+                "/Prakerin/gr_admin.png",
+                "/Prakerin/sw_admin.png",
+                "/Prakerin/mtr_admin.png",
+                "/Prakerin/db_guru.png",
+                "/Prakerin/abs_guru.png",
+                "/Prakerin/lpr_guru.png",
+                "/Prakerin/sw_guru.png",
+                "/Prakerin/mtr_guru.png",
+                "/Prakerin/db_siswa.png",
+                "/Prakerin/abs_siswa.png",
+                "/Prakerin/lpr_siswa.png",
             ],
-            skills: ["React", "Tailwind CSS", "Lucide React"],
+            skills: ["TailwindCSS", "Laravel", "Maps API", "MySQL"],
             description:
-                "Website portfolio pribadi yang menampilkan informasi, skill, project, dan kontak.",
-            github: "https://github.com/username/portfolio",
+                "This project was developed during my internship as a digital solution to support the reporting and supervision process of Industrial Work Practice (Prakerin) at the school. The system is web-based, enabling users to access it anytime and anywhere. It features three user roles with tailored access. 1)Admin can manages teacher and student accounts, industry partners, attendance schedules, and report evaluations. 2)Teacher can supervises assigned students, creates and manages attendance schedules, and evaluates student reports. 3)Student can submits real- time attendance(with active location tracking), uploads internship reports, and views their status and scores. I built this system using Laravel for the backend framework, Tailwind CSS for a modern and responsive UI, and integrated the Google Maps API for real - time location functionality in the attendance system. The goal of this project is to help schools digitize and streamline the internship program process, making it more efficient, transparent, and well - organized through technology.",
+            github: "https://github.com/jknymous/prakerin_system",
             link: "#",
         },
         {
-            title: "GUdang - Simple",
-            status: "On Progress",
-            sale: "Not Sale",
-            image: "/Gudang/login-page.png",
-            images: [
-                "/Gudang/login-page.png",
-                "/Gudang/db-admin.png",
-                "/Gudang/toko.png",
-                "/Gudang/user.png",
-                "/Gudang/barang.png",
-                "/Gudang/purchase.png",
-                "/Gudang/stok-keluar.png",
-                "/Gudang/profile.png",
-                "/Gudang/db-user.png",
-            ],
-            skills: ["React", "Tailwind CSS", "Lucide React"],
-            description:
-                "Website portfolio pribadi yang menampilkan informasi, skill, project, dan kontak.",
-            github: "https://github.com/username/portfolio",
-            link: "#",
-        },
-        {
-            title: "GUdang - Simple",
+            title: "JKStore - Simple",
             status: "Completed",
             sale: "Sale",
             image: "/Gudang/login-page.png",
@@ -72,38 +74,41 @@ export default function Projects({ lang }) {
                 "/Gudang/db-admin.png",
                 "/Gudang/toko.png",
                 "/Gudang/user.png",
+                "/Gudang/db-user.png",
                 "/Gudang/barang.png",
                 "/Gudang/purchase.png",
                 "/Gudang/stok-keluar.png",
                 "/Gudang/profile.png",
-                "/Gudang/db-user.png",
             ],
-            skills: ["React", "Tailwind CSS", "Lucide React"],
+            skills: ["TailwindCSS", "Laravel", "MySQL"],
             description:
-                "Website portfolio pribadi yang menampilkan informasi, skill, project, dan kontak.",
-            github: "https://github.com/username/portfolio",
-            link: "#",
+                "Simple Warehouse System is a web-based application designed to streamline the management of incoming and outgoing inventory. Built with Laravel and TailwindCSS, it supports two main roles: Admin and Warehouse Staff. Admins have full access, including user and store management, while Warehouse Staff focus on managing items, purchases, and stock outflows. This system is ideal for small to medium-sized retail operations, offering a clean, modern interface and efficient workflow.",
+            github: "https://github.com/jknymous",
+            link: "https://lynk.id/jknymous/kz0j4egk6xn1",
         },
         {
-            title: "GUdang - Simple",
-            status: "On Progress",
-            sale: "Sale",
-            image: "/Gudang/login-page.png",
+            title: "AnambasInfo",
+            status: "Completed",
+            sale: "Not Sale",
+            image: "/Anambas/login.png",
             images: [
-                "/Gudang/login-page.png",
-                "/Gudang/db-admin.png",
-                "/Gudang/toko.png",
-                "/Gudang/user.png",
-                "/Gudang/barang.png",
-                "/Gudang/purchase.png",
-                "/Gudang/stok-keluar.png",
-                "/Gudang/profile.png",
-                "/Gudang/db-user.png",
+                "/Anambas/login.png",
+                "/Anambas/admin-dashboard.png",
+                "/Anambas/admin-berita.png",
+                "/Anambas/admin-iklan.png",
+                "/Anambas/admin-transportasi.png",
+                "/Anambas/admin-jadwal.png",
+                "/Anambas/admin-emergency.png",
+                "/Anambas/admin-donasi.png",
+                "/Anambas/user-dashboard.png",
+                "/Anambas/user-jadwal.png",
+                "/Anambas/user-emergency.png",
+                "/Anambas/user-donasi.png",
             ],
-            skills: ["React", "Tailwind CSS", "Lucide React"],
+            skills: ["TailwindCSS", "React.js", "node.js", "Express.js", "MySQL"],
             description:
-                "Website portfolio pribadi yang menampilkan informasi, skill, project, dan kontak.",
-            github: "https://github.com/username/portfolio",
+                "AnambasInfo is a web-based information system designed to make it easier for the community to access important updates about the Anambas Islands. The website provides clear and up-to-date information on both sea and air transportation, as well as the latest local news. Built with modern technologies such as React.js, Tailwind CSS, Node.js, Express.js, and MySQL, AnambasInfo serves as a fast, responsive, and easily accessible digital information hub for everyone in the region.",
+            github: "https://github.com/jknymous",
             link: "#",
         },
     ];
@@ -132,7 +137,7 @@ export default function Projects({ lang }) {
     return (
         <section className="flex flex-col justify-center px-8 sm:px-12 md:px-28 lg:px-48 py-5 md:py-10 text-gray-300 font-mono">
             {/* TITLE */}
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-bright-blue mb-2">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-medium text-bright-blue mb-2">
                 {lang === "ID" ? "Proyek" : "Projects"}
             </h2>
             <div className="w-20 lg:w-32 h-1 bg-bright-blue mb-6"></div>
@@ -187,7 +192,7 @@ export default function Projects({ lang }) {
             {/* MODAL */}
             {selectedProject && (
                 <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 px-6 sm:px-8">
-                    <div className="bg-gray-900 rounded-lg max-w-3xl w-full relative p-4">
+                    <div className="bg-gray-900 rounded-lg max-w-3xl w-full relative p-4 max-h-[90vh] flex flex-col">
                         {/* CLOSE */}
                         <button
                             onClick={closeModal}
@@ -197,7 +202,7 @@ export default function Projects({ lang }) {
                         </button>
 
                         {/* CAROUSEL */}
-                        <div className="relative">
+                        <div className="relative flex-shrink-0">
                             <img
                                 src={selectedProject.images[currentImage]}
                                 alt="project"
@@ -218,7 +223,7 @@ export default function Projects({ lang }) {
                         </div>
 
                         {/* DESC */}
-                        <div className="mt-4">
+                        <div className="mt-4 overflow-y-auto pr-2 flex-1">
                             <h3 className="text-lg sd:text-xl font-semibold mb-2">{selectedProject.title}</h3>
                             <p className="text-sm sd:text-base mb-4">{selectedProject.description}</p>
                             <div className="flex flex-wrap gap-2 mb-4">

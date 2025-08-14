@@ -8,17 +8,17 @@ export default function Hero({ lang, setLang }) {
         : ['Full Stack Web Developer', 'UI/UX Designer', 'Agile Scrum Practitioner'];
 
     return (
-        <section className="flex flex-col md:flex-row items-start justify-center px-6 md:px-12 py-10 font-mono">
+        <section className="flex flex-col md:flex-row items-center md:items-start justify-center px-8 sm:px-12 md:px-28 lg:px-48 pt-16 pb-5 md:pb-10 text-gray-300 font-mono">
             {/* FOTO */}
             <img
                 src={profile}
                 alt="Profile"
-                className="w-48 h-48 rounded-xl border-2 border-bright-blue shadow-[0_0_50px_rgba(59,130,246,0.6)]
+                className="w-36 h-36 md:w-48 md:h-48 rounded-xl border-2 border-bright-blue shadow-[0_0_50px_rgba(59,130,246,0.6)]
                 mb-6 md:mb-0 md:mr-8 transition-transform duration-300 transform hover:scale-105 hover:shadow-[0_0_50px_rgba(59,130,246,0.9)] cursor-pointer"
             />
 
             {/* TEKS */}
-            <div className="flex flex-col justify-center items-start gap-2 h-48">
+            <div className="flex flex-col justify-center items-center md:items-start gap-2 h-auto md:h-48 text-center md:text-left">
                 {/* TOGGLE BAHASA */}
                 <div className="flex gap-2">
                     <button
@@ -46,7 +46,7 @@ export default function Hero({ lang, setLang }) {
                     typeSpeed={50}
                     backSpeed={40}
                     loop
-                    className="text-xl md:text-2xl text-gray-text"
+                    className="text-md md:text-2xl text-gray-text"
                 />
             </div>
         </section>

@@ -4,18 +4,18 @@ import React from "react";
 export default function Education({ lang }) {
     const timeline = [
         {
-            year: "2019 - 2022",
-            title: lang === "ID" ? "SMA Negeri 03" : "Senior High School 03",
+            year: "2020 - 2024",
+            title: lang === "ID" ? "Universitas Internasional Batam" : "Batam International University",
             desc: lang === "ID"
-                ? "Fokus pada bidang sains dan komputer, serta aktif dalam organisasi sekolah."
-                : "Focused on science and computer studies, actively involved in school organizations."
+                ? "Lulusan Sarjana Sistem Informasi"
+                : "Bachelor’s Degree in Information Systems"
         },
         {
-            year: "2022 - Sekarang",
-            title: lang === "ID" ? "Universitas Teknologi" : "University of Technology",
+            year: "2017 - 2019",
+            title: lang === "ID" ? "SMA Negeri 1 Siantan" : "SMA Negeri 1 Siantan",
             desc: lang === "ID"
-                ? "Sedang menempuh pendidikan tinggi di bidang Teknik Informatika."
-                : "Currently pursuing higher education in Computer Science."
+                ? "Jurusan IPA"
+                : "Majoring of Science"
         }
     ];
 
@@ -32,7 +32,7 @@ export default function Education({ lang }) {
             {/* TIMELINE */}
             <div className="relative border-l border-bright-blue">
                 {timeline.map((item, index) => (
-                    <div key={index} className="mb-10 ml-6">
+                    <div key={index} className="mb-6 ml-6">
                         {/* BULLET */}
                         <div className="absolute w-4 h-4 bg-bright-blue rounded-full -left-2.5"></div>
 

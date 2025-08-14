@@ -4,31 +4,13 @@ import React from "react";
 export default function Experience({ lang }) {
     const experiences = [
         {
-            position: lang === "ID" ? "Full Stack Developer" : "Full Stack Developer",
-            company: "Tech Company",
-            year: "2022 - Sekarang",
+            position: lang === "ID" ? "Full Stack Web Developer" : "Full Stack Web Developer",
+            company: "Freelancer",
+            year: "2021 - Sekarang",
             description:
                 lang === "ID"
-                    ? "Mengembangkan aplikasi web dengan teknologi modern seperti React, Laravel, dan Node.js."
-                    : "Developing web applications with modern technologies like React, Laravel, and Node.js.",
-        },
-        {
-            position: lang === "ID" ? "Frontend Developer" : "Frontend Developer",
-            company: "Creative Agency",
-            year: "2020 - 2022",
-            description:
-                lang === "ID"
-                    ? "Membangun antarmuka pengguna yang responsif dan menarik menggunakan Tailwind CSS dan Bootstrap."
-                    : "Built responsive and engaging user interfaces using Tailwind CSS and Bootstrap.",
-        },
-        {
-            position: lang === "ID" ? "Intern Web Developer" : "Intern Web Developer",
-            company: "Startup XYZ",
-            year: "2019 - 2020",
-            description:
-                lang === "ID"
-                    ? "Membantu tim dalam membuat fitur dan memperbaiki bug pada aplikasi internal."
-                    : "Assisted the team in building features and fixing bugs for internal applications.",
+                    ? "Mengembangkan sistem website sesuai dengan yang klien mau"
+                    : "Developing website systems according to the client’s requirements.",
         },
     ];
 

@@ -5,28 +5,16 @@ import { Award } from "lucide-react"; // icon sertifikat
 export default function Certification({ lang }) {
     const certificates = [
         {
-            title: lang === "ID" ? "Sertifikat Web Development" : "Web Development Certificate",
-            desc: lang === "ID"
-                ? "Diberikan oleh Dicoding Indonesia, mencakup HTML, CSS, dan JavaScript."
-                : "Issued by Dicoding Indonesia, covering HTML, CSS, and JavaScript."
+            title: lang === "ID" ? "Certificate Project Management Associate (Logical Operation) — 2021" : "Certificate Project Management Associate (Logical Operation) — 2021",
         },
         {
-            title: lang === "ID" ? "Sertifikat React.js" : "React.js Certificate",
-            desc: lang === "ID"
-                ? "Diberikan oleh Udemy setelah menyelesaikan kursus React tingkat lanjut."
-                : "Issued by Udemy after completing an advanced React course."
+            title: lang === "ID" ? "BC400 - ABAP Workbench (Edugate) — 2021" : "BC400 - ABAP Workbench (Edugate) — 2021",
         },
         {
-            title: lang === "ID" ? "Sertifikat Back-End Development" : "Back-End Development Certificate",
-            desc: lang === "ID"
-                ? "Diterbitkan oleh FreeCodeCamp, mencakup Node.js dan API."
-                : "Issued by FreeCodeCamp, covering Node.js and API."
+            title: lang === "ID" ? "Agile Scrum Fundamentals (Quint Wellington Redwood) — 2022" : "Agile Scrum Fundamentals (Quint Wellington Redwood) — 2022",
         },
         {
-            title: lang === "ID" ? "Sertifikat UI/UX Design" : "UI/UX Design Certificate",
-            desc: lang === "ID"
-                ? "Diterbitkan oleh Coursera, fokus pada prinsip desain dan prototyping."
-                : "Issued by Coursera, focusing on design principles and prototyping."
+            title: lang === "ID" ? "Adobe Certified Professional (ACP) — 2023" : "Adobe Certified Professional (ACP) — 2023",
         }
     ];
 
@@ -45,15 +33,13 @@ export default function Certification({ lang }) {
                 {certificates.map((cert, index) => (
                     <div
                         key={index}
-                        className="flex flex-col bg-gray-800 border border-gray-700 rounded-xl p-5 hover:border-bright-blue transition duration-300"
+                        className="flex flex-col bg-gray-800 rounded-xl p-5 hover:scale-[1.02] transition-transform"
                     >
                         {/* JUDUL */}
-                        <div className="flex items-center gap-3 mb-2">
+                        <div className="flex items-center gap-3">
                             <Award className="text-bright-blue w-6 h-6" />
                             <h3 className="text-base lg:text-lg font-semibold text-white">{cert.title}</h3>
                         </div>
-                        {/* DESKRIPSI */}
-                        <p className="text-xs lg:text-sm text-gray-400">{cert.desc}</p>
                     </div>
                 ))}
             </div>

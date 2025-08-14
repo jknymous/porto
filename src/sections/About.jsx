@@ -15,13 +15,13 @@ export default function About({ lang }) {
             <div className="text-xs sm:text-sm lg:text-base w-full space-y-4">
                 <p>
                     {lang === 'ID'
-                        ? 'Saya adalah seorang pengembang web yang bersemangat membangun aplikasi interaktif dan ramah pengguna. Dengan latar belakang yang kuat di teknologi front-end dan back-end, saya berusaha menciptakan solusi yang efisien, dapat diskalakan, dan menarik secara visual.'
-                        : 'I am a passionate web developer who loves building interactive and user-friendly applications. With a strong background in both front-end and back-end technologies, I strive to create solutions that are efficient, scalable, and visually appealing.'}
+                        ? 'Saya mengerjakan solusi digital dari awal hingga akhir. Mulai dari backend yang kokoh hingga frontend yang responsif, semuanya dengan desain yang berfokus kepada pengguna. Sebagai seorang Full Stack Developer sekaligus UI/UX Designer, saya menjadi penghubung antara aspek teknis dan pengalaman pengguna. Saya juga mengintegrasikan machine learning untuk membuat fitur lebih cerdas, mengotomatisasi proses, dan mempersonalisasi interaksi. Bagi saya, clean code, pengalaman pengguna yang mulus, dan keputusan berbasis data bukan sekadar tujuan tetapi sudah menjadi standar kerja.'
+                        : 'I build end-to-end digital solutions—scaling from robust backend architectures to responsive frontend interfaces, with user-centric design at the core. As a Full Stack Developer and UI/UX Designer, I bridge the gap between engineering and experience. I also integrate machine learning models to drive smarter features, automate decisions, and personalize interactions. For me, clean code, seamless UX, and data-driven intelligence arent just goals—theyre the baseline.'}
                 </p>
                 <p>
                     {lang === 'ID'
-                        ? 'Di luar dunia pemrograman, saya senang menjelajahi tren desain baru, mempelajari alat-alat terbaru, dan berkolaborasi dengan orang-orang kreatif. Tujuan saya adalah terus mengembangkan keterampilan dan berkontribusi pada proyek-proyek yang memberi dampak positif.'
-                        : 'Outside of coding, I enjoy exploring new design trends, learning cutting-edge tools, and collaborating with creative minds. My goal is to continually improve my skills and contribute to projects that make a positive impact.'}
+                        ? 'Saat ini, saya memperluas wawasan dengan mengeksplorasi teknologi Web3 dan blockchain sebagai bagian dari perjalanan pembelajaran berkelanjutan. Dengan kombinasi keterampilan teknis, desain, dan analitis, saya berkomitmen untuk menciptakan solusi digital yang inovatif dan efektif.'
+                        : 'Currently, I am expanding my knowledge by exploring Web3 and blockchain technologies as part of my continuous learning journey. With a combination of technical, design, and analytical skills, I am committed to creating innovative, effective, and impactful digital solutions.'}
                 </p>
             </div>
         </section>
